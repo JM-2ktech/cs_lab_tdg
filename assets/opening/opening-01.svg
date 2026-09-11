@@ -1,0 +1,80 @@
+<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Segoe UI',sans-serif">
+  <defs>
+    <marker id="dot" markerWidth="6" markerHeight="6" refX="3" refY="3">
+      <circle cx="3" cy="3" r="2.5" fill="#a78bfa"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="580" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="450" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Power Platform 생태계 지도</text>
+  <text x="450" y="60" text-anchor="middle" font-size="13.5" fill="#6b7280">하나의 플랫폼 안에 다섯 개의 도구 — 오늘은 이 중 하나(Copilot Studio)만 씁니다</text>
+
+  <!-- connecting lines: hub to spokes -->
+  <line x1="450" y1="280" x2="450" y2="140" stroke="#c4b5fd" stroke-width="3"/>
+  <line x1="450" y1="280" x2="649.7" y2="225.1" stroke="#c4b5fd" stroke-width="2.5"/>
+  <line x1="450" y1="280" x2="573.4" y2="449.9" stroke="#c4b5fd" stroke-width="2.5"/>
+  <line x1="450" y1="280" x2="326.6" y2="449.9" stroke="#c4b5fd" stroke-width="2.5"/>
+  <line x1="450" y1="280" x2="250.3" y2="225.1" stroke="#c4b5fd" stroke-width="2.5"/>
+
+  <!-- Power Automate -> PAD sub-node (dashed) -->
+  <line x1="649.7" y1="225.1" x2="773.4" y2="184.9" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- Hub: Power Platform -->
+  <circle cx="450" cy="280" r="74" fill="#4c1d95"/>
+  <text x="450" y="272" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">
+    <tspan x="450" dy="0">Power</tspan>
+    <tspan x="450" dy="22">Platform</tspan>
+  </text>
+  <text x="450" y="322" text-anchor="middle" font-size="10.5" fill="#ddd6fe">(허브)</text>
+
+  <!-- Copilot Studio (highlighted, top) -->
+  <circle cx="450" cy="140" r="60" fill="#6d28d9" stroke="#4c1d95" stroke-width="3"/>
+  <text x="450" y="133" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">
+    <tspan x="450" dy="0">Copilot</tspan>
+    <tspan x="450" dy="19">Studio</tspan>
+  </text>
+  <rect x="410" y="176" width="80" height="20" rx="10" fill="#fbbf24"/>
+  <text x="450" y="190" text-anchor="middle" font-size="11" font-weight="700" fill="#78350f">오늘 사용</text>
+
+  <!-- Power Automate -->
+  <circle cx="649.7" cy="225.1" r="58" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="649.7" y="218" text-anchor="middle" font-size="15" font-weight="600" fill="#4c1d95">
+    <tspan x="649.7" dy="0">Power</tspan>
+    <tspan x="649.7" dy="19">Automate</tspan>
+  </text>
+
+  <!-- PAD sub-node -->
+  <circle cx="773.4" cy="184.9" r="40" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="773.4" y="180" text-anchor="middle" font-size="10.5" font-weight="600" fill="#6d28d9">
+    <tspan x="773.4" dy="0">PAD</tspan>
+    <tspan x="773.4" dy="13" font-size="8.5" font-weight="400">(Desktop)</tspan>
+  </text>
+
+  <!-- Power BI -->
+  <circle cx="573.4" cy="449.9" r="58" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="573.4" y="456" text-anchor="middle" font-size="15" font-weight="600" fill="#4c1d95">
+    <tspan x="573.4" dy="0">Power BI</tspan>
+  </text>
+
+  <!-- Power Pages -->
+  <circle cx="326.6" cy="449.9" r="58" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="326.6" y="443" text-anchor="middle" font-size="15" font-weight="600" fill="#4c1d95">
+    <tspan x="326.6" dy="0">Power</tspan>
+    <tspan x="326.6" dy="19">Pages</tspan>
+  </text>
+
+  <!-- Power Apps -->
+  <circle cx="250.3" cy="225.1" r="58" fill="#ede9fe" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="250.3" y="218" text-anchor="middle" font-size="15" font-weight="600" fill="#4c1d95">
+    <tspan x="250.3" dy="0">Power</tspan>
+    <tspan x="250.3" dy="19">Apps</tspan>
+  </text>
+
+  <!-- legend -->
+  <rect x="330" y="536" width="16" height="16" rx="4" fill="#6d28d9"/>
+  <text x="354" y="548" font-size="12.5" fill="#374151">오늘 다루는 도구</text>
+  <rect x="500" y="536" width="16" height="16" rx="4" fill="#ede9fe" stroke="#a78bfa"/>
+  <text x="524" y="548" font-size="12.5" fill="#374151">생태계 안의 다른 도구(오늘 범위 밖)</text>
+</svg>

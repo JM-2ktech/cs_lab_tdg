@@ -1,0 +1,52 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="axisGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="320" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">오늘 쓸 두 도구, 같은 스펙트럼의 다른 지점</text>
+  <text x="450" y="58" text-anchor="middle" font-size="13.5" fill="#6b7280">쉽고 빠른 도구부터 강력하고 확장 가능한 도구까지 — 오늘은 이 두 지점만 사용합니다</text>
+
+  <!-- faded spectrum extensions (hints at wider spectrum, no labels) -->
+  <line x1="90" y1="180" x2="185" y2="180" stroke="#ddd6fe" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+  <line x1="715" y1="180" x2="810" y2="180" stroke="#c4b5fd" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- main axis -->
+  <rect x="185" y="173" width="530" height="14" rx="7" fill="url(#axisGrad)"/>
+
+  <!-- direction arrow + label above axis -->
+  <line x1="270" y1="128" x2="630" y2="128" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <text x="450" y="118" text-anchor="middle" font-size="12" fill="#6b7280">난이도 ↓ · 자유도·확장성 ↑</text>
+
+  <!-- Agent Builder node -->
+  <circle cx="200" cy="180" r="52" fill="#8b5cf6"/>
+  <text x="200" y="173" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">
+    <tspan x="200" dy="0">Agent</tspan>
+    <tspan x="200" dy="18">Builder</tspan>
+  </text>
+
+  <!-- Copilot Studio node -->
+  <circle cx="700" cy="180" r="52" fill="#4c1d95"/>
+  <text x="700" y="173" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">
+    <tspan x="700" dy="0">Copilot</tspan>
+    <tspan x="700" dy="18">Studio</tspan>
+  </text>
+
+  <!-- descriptor labels -->
+  <text x="200" y="258" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">쉬움 · 선언형</text>
+  <text x="200" y="278" text-anchor="middle" font-size="12" fill="#6b7280">M365 Copilot 내장</text>
+
+  <text x="700" y="258" text-anchor="middle" font-size="14" font-weight="600" fill="#4c1d95">강력함 · 확장형</text>
+  <text x="700" y="278" text-anchor="middle" font-size="12" fill="#6b7280">지식·지침·커넥터·토픽</text>
+
+  <!-- caption -->
+  <text x="450" y="308" text-anchor="middle" font-size="12" fill="#9ca3af">오늘의 흐름: Agent Builder로 먼저 완성 → 동작 원리 이해 → Copilot Studio로 제대로 구성</text>
+</svg>
