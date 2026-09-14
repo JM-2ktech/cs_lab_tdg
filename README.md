@@ -2,7 +2,7 @@
 
 Microsoft Copilot Studio를 처음 쓰는 사람을 위한 **1일 핸즈온 교안**입니다. 에이전트를 만들고, 지식을 붙이고, 토픽으로 대화를 정하고, 커넥터·에이전트 흐름·MCP로 바깥과 잇는 데까지 갑니다.
 
-배포: `https://jm-2ktech.github.io/cs_lab/`
+배포: `https://jm-2ktech.github.io/cs_lab_tdg/`
 
 ## 무엇을 다루나
 
@@ -45,12 +45,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
-`http://localhost:4000/cs_lab/` 에서 확인할 수 있습니다.
+`http://localhost:4000/cs_lab_tdg/` 에서 확인할 수 있습니다.
 
 ## 폴더 구조
 
 ```
-cs_lab/
+cs_lab_tdg/
 ├── _config.yml                  Jekyll 설정
 ├── _sass/custom/custom.scss     커스텀 스타일
 ├── .github/workflows/pages.yml  GitHub Pages 배포
