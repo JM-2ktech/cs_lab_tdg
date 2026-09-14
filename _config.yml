@@ -26,6 +26,11 @@ aux_links:
   "GitHub":
     - "https://github.com/JM-2ktech/cs_lab_tdg"
 
+# 교육 회차마다 바뀌는 값 — 본문은 {{ site.tdg.<키> }} 로 참조한다. 회차가 바뀌면 여기만 고친다.
+# ⚠️ 이 파일은 공개 저장소에 올라간다.
+tdg:
+  forms_template_url: "https://forms.cloud.microsoft/Pages/ShareFormPage.aspx?id=byHJSWarrEiOXxuxAqx5YfA7JqsXOW5JlR-1DFl0RLBUMThBRTlaRFJCM04wVjMzOU9HVkY2N1FYVS4u&sharetoken=BnR9CmjaUfq7aWrJBfM8"
+
 nav_sort: order
 color_scheme: light
 
